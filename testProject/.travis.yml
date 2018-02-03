@@ -1,0 +1,10 @@
+language: cpp
+solution: test.sln
+compiler:
+    - gcc
+    - clang
+install: 
+    - sudo apt-get install g++ cmake
+script:
+    - cmake .
+    - cmake --build .
