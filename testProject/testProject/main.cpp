@@ -2,7 +2,9 @@
 
 using namespace std;
 
-void main(void)
+int main(int argc, char *argv[])
 {
 	cout << "HELLO WORLD" << endl;
+
+	return 0;
 }
